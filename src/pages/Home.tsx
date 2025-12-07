@@ -16,6 +16,9 @@ import reactIcon from "./../assets/icons/react.svg";
 import csIcon from "./../assets/icons/cs.svg";
 import javaIcon from "./../assets/icons/java.svg";
 import cppIcon from "./../assets/icons/cpp.svg";
+import luaIcon from "./../assets/icons/lua.svg";
+import luauIcon from "./../assets/icons/luau.svg";
+import phpIcon from "./../assets/icons/php.svg";
 
 import GSVN from "./../assets/projects/gamestorevn.com_.webp";
 import EMC2 from "./../assets/projects/emc2.png";
@@ -39,7 +42,7 @@ const List = [
         name: "DukeeHub",
         type: "Roblox/Web",
         tech: [
-            "Lua",
+            "Luau",
             "JavaScript",
             "CSS",
             "PHP"
@@ -82,7 +85,7 @@ const List = [
         buttons: [
             {
                 name: "GitHub",
-                url: "https://github.com/c3cbot/legacy-c3cbot"
+                url: "https://github.com/kudodzzz/DuoliFarmer"
             }
         ]
     }
@@ -132,6 +135,13 @@ const skills: {
             textColor: "#a179dc"
         },
         {
+            name: "PHP",
+            icon: phpIcon,
+            description: "i still use it occasionally, but it seems that I’ve switched to Node.js.",
+            color: "purple",
+            textColor: "#a179dc"
+        },
+        {
             name: "C++",
             icon: cppIcon,
             description: "segmentation fault",
@@ -143,6 +153,20 @@ const skills: {
             icon: reactIcon,
             description: "i'm not going back to pure js",
             color: "indigo",
+            textColor: "#61dafb"
+        },
+        {
+            name: "Lua",
+            icon: luaIcon,
+            description: "um.. i switched to luau to make roblox game, exploits.",
+            color: "blue",
+            textColor: "#61dafb"
+        },
+        {
+            name: "Luau",
+            icon: luauIcon,
+            description: "just as i said, make roblox game, exploits.",
+            color: "blue",
             textColor: "#61dafb"
         }
     ]
@@ -237,10 +261,10 @@ export default function PageHome() {
                     </IconButton>
                     <div className={cls.Inf}>
                         <Heading style={{ "--text-color": "#e2d1d4" } as React.CSSProperties} className={"PrettyTitle"} size="4">
-                            my projects and services
+                            my projects
                         </Heading>
                         <Text size="1" color="gray">
-                            *cue procastination*
+                            heh… it looks too little and pretty bad, doesn't it?
                         </Text>
                     </div>
                 </div>
