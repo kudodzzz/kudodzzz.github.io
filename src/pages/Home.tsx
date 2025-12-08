@@ -19,6 +19,7 @@ import cppIcon from "./../assets/icons/cpp.svg";
 import luaIcon from "./../assets/icons/lua.svg";
 import luauIcon from "./../assets/icons/luau.svg";
 import phpIcon from "./../assets/icons/php.svg";
+import pythonIcon from "./../assets/icons/python.svg";
 
 import GSVN from "./../assets/projects/gamestorevn.com_.webp";
 import EMC2 from "./../assets/projects/emc2.png";
@@ -88,6 +89,25 @@ const List = [
                 url: "https://github.com/kudodzzz/DuoliFarmer"
             }
         ]
+    },
+    {
+        image: "",
+        name: "DuoCheater",
+        type: "Userscript",
+        tech: [
+            "JavaScript"
+        ],
+        description: "duolifarmer’s upgraded version",
+        buttons: [
+            {
+                name: "GitHub",
+                url: "https://github.com/kudodzzz/DuoCheater"
+            },
+            {
+                name: "Website",
+                url: "https://duocheater.kdz.ct.ws"
+            }
+        ]
     }
 
 ]
@@ -105,6 +125,13 @@ const skills: {
             description: "javascript with types. pure javascript suck :)",
             color: "blue",
             textColor: "#007acc"
+        },
+        {
+            name: "Python",
+            icon: pythonIcon,
+            description: "i often mess around with this language doing random stuff, but i still have a few decent products.",
+            color: "blue",
+            textColor: "#306998"
         },
         {
             name: "JavaScript",
@@ -198,7 +225,7 @@ export default function PageHome() {
                             about me
                         </Heading>
                         <Text size="1" color="gray">
-                            is it really that interesting?
+                            there's really nothing to it. the truth is just terrible…
                         </Text>
                     </div>
                 </div>
@@ -264,7 +291,7 @@ export default function PageHome() {
                             my projects
                         </Heading>
                         <Text size="1" color="gray">
-                            heh… it looks too little and pretty bad, doesn't it?
+                            heh... nothing could be worse.
                         </Text>
                     </div>
                 </div>
