@@ -106,7 +106,43 @@ const List = [
             {
                 name: "Website",
                 url: "https://duocheater.kdz.ct.ws"
-            }
+            },
+    {
+        image: "",
+        name: "K2KWatch",
+        type: "Web",
+        tech: [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        description: "a simple movie-watching website coded with html, css and js. bruh, i don’t even consider it a project anymore…",
+        buttons: [
+            {
+                name: "GitHub",
+                url: "https://github.com/kudodzzz/K2KWatch"
+            },
+            {
+                name: "Website",
+                url: "https://watch.kdz.ct.ws"
+            },
+    {
+        image: "",
+        name: "kdzapi",
+        type: "API",
+        tech: [
+            "Python (Flask)"
+        ],
+        description: "nothing to say...",
+        buttons: [
+            {
+                name: "GitHub",
+                url: "https://github.com/kdzjr/KdzApi"
+            },
+            {
+                name: "Website",
+                url: "https://api.kdz.ct.ws"
+            },
         ]
     }
 
