@@ -142,7 +142,7 @@ const List = [
             {
                 name: "Website",
                 url: "https://api.kdz.ct.ws"
-            },
+            }
         ]
     }
 
