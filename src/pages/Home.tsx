@@ -107,7 +107,7 @@ const List = [
                 name: "Website",
                 url: "https://duocheater.kdz.ct.ws"
             },
-        ]
+        ],
     {
         image: "",
         name: "K2KWatch",
@@ -127,7 +127,7 @@ const List = [
                 name: "Website",
                 url: "https://watch.kdz.ct.ws"
             },
-        ]
+        ],
     {
         image: "",
         name: "KdzApi",
