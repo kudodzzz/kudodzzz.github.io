@@ -128,12 +128,12 @@ const List = [
             },
     {
         image: "",
-        name: "kdzapi",
+        name: "KdzApi",
         type: "API",
         tech: [
             "Python (Flask)"
         ],
-        description: "nothing to say...",
+        description: "nothing to say..",
         buttons: [
             {
                 name: "GitHub",
