@@ -42,113 +42,68 @@ const List = [
         image: "",
         name: "DukeeHub",
         type: "Roblox/Web",
-        tech: [
-            "Luau",
-            "JavaScript",
-            "CSS",
-            "PHP"
-        ],
+        tech: ["Luau", "JavaScript", "CSS", "PHP"],
         description: "roblox exploits",
         buttons: [
-            {
-                name: "Website",
-                url: "https://dukee.ct.ws"
-            },
-            {
-                name: "Discord",
-                url: "https://discord.gg/WYMXvrnpz2"
-            }
-        ]
+            { name: "Website", url: "https://dukee.ct.ws" },
+            { name: "Discord", url: "https://discord.gg/WYMXvrnpz2" },
+        ],
     },
     {
         image: "",
         name: "DukeeMobile",
         type: "Software",
-        tech: [
-            "Python"
-        ],
+        tech: ["Python"],
         description: "a software that helps you automatically connect ADB wireless and automatically mirror the screen from your phone to your computer",
         buttons: [
-            {
-                name: "GitHub",
-                url: "https://github.com/DukeeHub/DukeeMobile"
-            }
-        ]
+            { name: "GitHub", url: "https://github.com/DukeeHub/DukeeMobile" },
+        ],
     },
     {
         image: "",
         name: "DuoliFarmer",
         type: "Userscript",
-        tech: [
-            "JavaScript"
-        ],
+        tech: ["JavaScript"],
         description: "a duolingo xp farming tool",
         buttons: [
-            {
-                name: "GitHub",
-                url: "https://github.com/kudodzzz/DuoliFarmer"
-            }
-        ]
+            { name: "GitHub", url: "https://github.com/kudodzzz/DuoliFarmer" },
+        ],
     },
     {
         image: "",
         name: "DuoCheater",
         type: "Userscript",
-        tech: [
-            "JavaScript"
-        ],
+        tech: ["JavaScript"],
         description: "duolifarmer’s upgraded version",
         buttons: [
-            {
-                name: "GitHub",
-                url: "https://github.com/kudodzzz/DuoCheater"
-            },
-            {
-                name: "Website",
-                url: "https://duocheater.kdz.ct.ws"
-            },
+            { name: "GitHub", url: "https://github.com/kudodzzz/DuoCheater" },
+            { name: "Website", url: "https://duocheater.kdz.ct.ws" },
         ],
+    },
     {
         image: "",
         name: "K2KWatch",
         type: "Web",
-        tech: [
-            "HTML",
-            "CSS",
-            "JS"
-        ],
+        tech: ["HTML", "CSS", "JS"],
         description: "a simple movie-watching website coded with html, css and js. bruh, i don’t even consider it a project anymore…",
         buttons: [
-            {
-                name: "GitHub",
-                url: "https://github.com/kudodzzz/K2KWatch"
-            },
-            {
-                name: "Website",
-                url: "https://watch.kdz.ct.ws"
-            },
+            { name: "GitHub", url: "https://github.com/kudodzzz/K2KWatch" },
+            { name: "Website", url: "https://watch.kdz.ct.ws" },
         ],
+    },
     {
         image: "",
         name: "KdzApi",
         type: "API",
-        tech: [
-            "Python (Flask)"
-        ],
+        tech: ["Python (Flask)"],
         description: "nothing to say..",
         buttons: [
-            {
-                name: "GitHub",
-                url: "https://github.com/kdzjr/KdzApi"
-            },
-            {
-                name: "Website",
-                url: "https://api.kdz.ct.ws"
-            }
-        ]
-    }
+            { name: "GitHub", url: "https://github.com/kdzjr/KdzApi" },
+            { name: "Website", url: "https://api.kdz.ct.ws" },
+        ],
+    },
+];
 
-]
 
 const skills: {
     name: string,
